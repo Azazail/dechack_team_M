@@ -14,8 +14,17 @@
     </head>
     <body>
         <h1> site title </h1>
-        <p> We are going to be presenting some videos of women in the media and its up to you to decide whether it's portraying women negatively or positively.</p> 
-        <p class="countdown"> your on video 1/10 </p>
+           <div id="pic1">
+            <img id="pic" src="http://www.girlsworldexpo.com/img/girls%20in%20line.jpg">
+        </div>
+        <div id="start">
+        <p> We believe that there are too many negative representations of women in media. We're asking you to watch 10 videos and tell us whether or not you think they're empowering or offensive. Together we can help raise awareness and show the media what society thinks of their videos.</p>
+        <button id="startbutton">Start</button>
+        </div>
+        <div id="whole">
+        <div class="meter">
+  <span style="width: 0%" id= "progress" ></span>
+</div>
         <div id="single">
         <iframe src="https://www.youtube.com/embed/XjJQBjWYDTs" allowfullscreen id="video"></iframe>
         </div>
@@ -30,11 +39,11 @@
     <ul class="pieID legend">
       <li>
         <em>Offensive</em>
-        <span>20</span>
+        <span id='negative'>27756</span>
       </li>
       <li>
         <em>Empowering</em>
-        <span>550</span>
+        <span id='positive'>244330</span>
       </li>
     </ul>
   </section>
@@ -42,5 +51,6 @@
         <img src="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/high-resolution-dark-blue-denim-jeans-icons-arrows/008771-high-resolution-dark-blue-denim-jeans-icon-arrows-hand-clear-pointer-right.png">
         </button></div>
         </div>
+    </div>
     </body>
 </html>
