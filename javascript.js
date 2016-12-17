@@ -89,4 +89,7 @@ $("#startbutton").click(function(){
     $("#start").hide();
     $("#whole").show();
 });
+$('#post').click(function () {
+    $("#comments").append("<p>"+$('input').val ()+"</>");
+});
 });
