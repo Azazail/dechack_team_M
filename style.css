@@ -1,5 +1,4 @@
-#bar{display:none;
-}
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 @keyframes bake-pie {
@@ -16,9 +15,7 @@ main {
   width: 400px;
   margin: 30px auto;
 }
-section {
-  margin-top: 30px;
-}
+
 .pieID {
   display: inline-block;
   vertical-align: top;
@@ -133,5 +130,35 @@ footer {
       font-size:15px;
       text-align:center;
   }
+  #next img {
+    height: 40px;
+    
+}
+#next {
+  margin-left: 30px;
   
+}
+
+#bar {
+  display: none;
+  margin-top: 30px;
+  align-items: center;
+  justify-content:space-around;
+}
+.positive {
+    font-family: 'Patua One', cursive;
+    font-size:40px;
+    margin: 30px;
+}
+#power:hover {
+    box-shadow: 0px 0px 100px #CCCC00;
+    color: #CCCC00;
+}
+#offense:hover {
+    box-shadow: 0px 0px 100px red;
+    color:red;
+}
+    
+
+
     

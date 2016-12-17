@@ -1,8 +1,14 @@
 $(document).ready(function() {
 $(".positive").click(function(){
     $(".positive").hide();
-    $("#bar").show(); 
+    $("#bar").show();
+    $('#bar').css('display','flex');
 });
+$('#next').click(function() {
+  $('.positive').show();
+  $('#bar').hide();
+});
+  
 function sliceSize(dataNum, dataTotal) {
   return (dataNum / dataTotal) * 360;
 }
